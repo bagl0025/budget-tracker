@@ -9,7 +9,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Budget Tracker is .....
+Budget Tracker is an application to allow for offline access and functionality. User can add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total will be updated when they're brought back online.
 
 # Table of Contents
 
@@ -23,19 +23,31 @@ Budget Tracker is .....
 
 ## Installation
 
+The app is deployed on Heroku but you can also install it locally following these steps:
+
 - Install node.js
-- download the repo: https://github.com/bagl0025/social-network-api.git
+- download the repo: https://github.com/bagl0025/budget-tracker.git
 - The dependencies can be installed by running `npm install`
 
 - Run the application using `npm start` or `node server`
 
 ## Usage
 
-...
+Enter a transaction name and amout and click add or substract funds.
 
-### Budget Tracker screenshot
+## Budget Tracker screenshots
 
-<img src="./assets/images/screenshot.png" alt="budget tracker screenshot" width="600"/>
+### Normal usage (online)
+
+<img src="./images/screenshot.png" alt="budget tracker screenshot" width="600"/>
+
+### Offline usage
+
+<img src="./images/offline.png" alt="budget tracker screenshot while offline" width="600"/>
+
+### Returning to online
+
+<img src="./images/online.png" alt="budget tracker screenshot reconnecting" width="600"/>
 
 ## License
 
@@ -55,4 +67,4 @@ https://github.com/bagl0025/budget-tracker.git
 
 ## Deployed app on Heroku
 
-https://
+https://still-dawn-36465.herokuapp.com/
